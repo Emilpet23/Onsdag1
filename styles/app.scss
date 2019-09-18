@@ -1,0 +1,48 @@
+@import 'partial';
+@import 'vars';
+
+.but1 {
+    @include button(0.8em, 10px 15px, center, none, #000, 5px 5px 5px 0);
+    background: $PriColor;
+}
+
+.but2 {
+    @include button(0.8em, 10px 15px, center, none, #fff, 5px 5px 5px 0);
+    background: $SecColor;
+}
+
+.useful {
+    background: $PriColor;
+    padding: $padding;
+    margin: $mZero;
+    text-align: $alignC;
+}
+
+.box1 {
+    background: $SecColor;
+    color: $Color;
+    padding: $padding;
+}
+
+.box2 {
+    background: lighten($bColor, 10%);
+    padding: $padding;
+}
+
+.one {
+    margin: $mZero;
+}
+
+.two {
+    margin: $mZero;
+}
+
+main {
+    width: $cWidth;
+    margin: $mAuto;
+}
+
+body {
+    background: $Color;
+    font-family: $fontFam;
+}

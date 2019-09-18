@@ -1,0 +1,56 @@
+.but1 {
+  font-size: 0.8em;
+  padding: 10px 15px;
+  text-align: center;
+  border: none;
+  color: #000;
+  margin: 5px 5px 5px 0;
+  background: yellow;
+}
+
+.but2 {
+  font-size: 0.8em;
+  padding: 10px 15px;
+  text-align: center;
+  border: none;
+  color: #fff;
+  margin: 5px 5px 5px 0;
+  background: black;
+}
+
+.useful {
+  background: yellow;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+.box1 {
+  background: black;
+  color: white;
+  padding: 20px;
+}
+
+.box2 {
+  background: #ededed;
+  padding: 20px;
+}
+
+.one {
+  margin: 0;
+}
+
+.two {
+  margin: 0;
+}
+
+main {
+  width: 400px;
+  margin: auto;
+}
+
+body {
+  background: white;
+  font-family: Arial, sans-serif;
+}
+/*# sourceMappingURL=app.css.map */

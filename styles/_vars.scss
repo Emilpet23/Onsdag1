@@ -1,0 +1,13 @@
+@mixin button ($fontsize, $padding, $tac, $bzero, $fontcolor, $spaceButton) {
+    font-size: $fontsize;
+    padding: $padding;
+    text-align: $tac;
+    border: $bzero;
+    color: $fontcolor;
+    margin: $spaceButton;
+}
+
+@mixin mapa ($marginZ, $paddingZ) {
+    margin: $marginZ;
+    padding: $paddingZ;
+}
